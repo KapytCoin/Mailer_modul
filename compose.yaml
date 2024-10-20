@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: postgres_mailer
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: TempXXL2024
+      POSTGRES_HOST_AUTH_METHOD:
+    ports:
+      - "5434:5432"
