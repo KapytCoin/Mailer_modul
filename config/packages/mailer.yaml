@@ -2,4 +2,4 @@ framework:
     mailer:
         dsn: '%env(MAILER_DSN)%'
         envelope:
-            sender: 'ilya.latypov2002@yandex.ru'
+            sender: 'example@example.com'
